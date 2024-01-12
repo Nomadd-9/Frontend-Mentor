@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.7;
+  color: hsl(236, 13%, 42%);
+}
+
+body {
+  font-size: 15px;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header nav ul {
+  position: absolute;
+}
+
+.header nav ul li {
+  margin: 1.5rem 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header nav ul li:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.main {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.main h1 {
+  font-size: 15px;
+  color: hsl(240, 100%, 5%);
+  margin: 1rem 0;
+}
+
+#p1 {
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  font-size: 20px;
+  padding: 0.8rem 2rem;
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: hsl(240, 100%, 5%);
+  cursor: pointer;
+}
+
+.sidecard {
+  background-color: hsl(240, 100%, 5%);
+  margin-top: 2rem;
+  padding: 1.25rem 1.25rem 0;
+}
+
+.sidecard h2 {
+    color: hsl(35, 77%, 62%);
+    padding-bottom: 1rem;
+}
+
+.sidecard h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.cards {
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2.5rem;
+}
+
+.cards article {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.cards article img {
+  width: 150px;
+}
