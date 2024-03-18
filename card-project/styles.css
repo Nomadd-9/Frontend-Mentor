@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.parent {
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  width: 1200px;
+}
+
+.child1 {
+  
+}
+
+.child1 img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.child2 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+.child2 h3 {
+
+  font-weight: 300;
+  
+}
+
+.child2 h1 {
+ 
+}
+
+.child2 p {
+letter-spacing: 2px;
+}
+
+.price {
+  display: flex;
+ justify-content: space-around;
+ padding: 20px 0 20px 0;
+}
+
+
+.price h1 {
+  color: green;
+}
+
+.price p {
+
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 30%;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700; 
+  
+}
+
+button {
+  background-color: green;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+}
